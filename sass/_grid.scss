@@ -1,0 +1,36 @@
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.col-2 { flex-grow: 2; }
+.col-3 { flex-grow: 3; }
+.col-4 { flex-grow: 4; }
+.col-5 { flex-grow: 5; }
+.col-6 { flex-grow: 6; }
+
+.col-auto {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.no-shrink {
+    flex-shrink: 0;
+}

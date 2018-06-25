@@ -1,0 +1,23 @@
+.text-primary { color: $primary; }
+.text-secondary { color: $secondary; }
+.text-success { color: $success; }
+.text-danger { color: $danger; }
+.text-white { color: $white; }
+.text-black { color: $black; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+}
+
+div,
+a,
+p,
+li,
+span {
+    font-family: $body-font;
+}

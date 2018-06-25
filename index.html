@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker3.standalone.min.css"
+    />
+    <link rel="stylesheet" href="fonts/helvetica.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header class="bg-primary py-3">
+        <nav class="container d-flex align-items-center justify-content-between">
+            <a href="#">
+                <img src="images/logo.svg" height="40" alt="Market" style="position: relative; top: -2px">
+            </a>
+            <div class="text-right">
+                <p class="h3 text-white m-0">+971 4 4229639</p>
+                <p class="h5 font-weight-normal text-white m-0">Sat - Thu: 8am - 8pm Fri: 9am - 6pm</p>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-light">
+        <nav class="steps bg-white pb-4 pt-2 border-bottom sticky hide-on-focus">
+            <div class="container">
+                <!-- Stepper -->
+                <ul class="steps px-4 list-unstyled m-0 d-flex align-items-center justify-content-between">
+                    <li class="step col-auto text-center complete">
+                        <span class="step-icon"></span>
+                        <p class="step-label h6 m-0 text-nowrap">Cleaning details</p>
+                    </li>
+                    <li class="step-lines col"></li>
+                    <li class="step col-auto text-center active">
+                        <span class="step-icon"></span>
+                        <p class="step-label h6 m-0 text-nowrap">Contact details</p>
+                    </li>
+                    <li class="step-lines col"></li>
+                    <li class="step col-auto text-center">
+                        <span class="step-icon"></span>
+                        <p class="step-label h6 m-0 text-nowrap">Payment</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="py-4 border-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center text-lg-left">
+                        <div class="h3 m-0">Book a move online for as low as AED 799*</div>
+                        <p class="m-0">We will ask few questions to connect you with the right Packers & Movers</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <section id="formCleaners">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">How many cleaners do you need?</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="a" name="cleaners" class="d-none" checked>
+                                <label data-toggle="navigate" data-target="#formDuration" for="a" class="btn-radio border rounded btn-block pointer">1 Cleaner</label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="b" name="cleaners" class="d-none">
+                                <label data-toggle="navigate" data-target="#formDuration" for="b" class="btn-radio border rounded btn-block pointer">2 Cleaners</label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="c" name="cleaners" class="d-none">
+                                <label data-toggle="navigate" data-target="#formDuration" for="c" class="btn-radio border rounded btn-block pointer">3 Cleaners</label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="d" name="cleaners" class="d-none">
+                                <label data-toggle="navigate" data-target="#formDuration" for="d" class="btn-radio border rounded btn-block pointer">4 Cleaners</label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formDuration">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">How long should they stay?</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="1" name="duration" class="d-none" checked>
+                                <label data-toggle="navigate" data-target="#formOften" for="1" class="btn-radio rounded border btn-block py-3 text-center pointer">
+                                    <p class="h3 m-0 font-weight-normal">2 Hours</p>
+                                    <p class="h3 m-0 font-weight-normal d-flex align-items-center justify-content-center text-warning">
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">AED</span>
+                                        <span class="h1 font-weight-normal my-0 mx-1">50</span>
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">/HR</span>
+                                    </p>
+                                </label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="2" name="duration" class="d-none">
+                                <label data-toggle="navigate" data-target="#formOften" for="2" class="btn-radio rounded border btn-block py-3 text-center pointer">
+                                    <p class="h3 m-0 font-weight-normal">3 Hours</p>
+                                    <p class="h3 m-0 font-weight-normal d-flex align-items-center justify-content-center text-warning">
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">AED</span>
+                                        <span class="h1 font-weight-normal my-0 mx-1">40</span>
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">/HR</span>
+                                    </p>
+                                </label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="3" name="duration" class="d-none">
+                                <label data-toggle="navigate" data-target="#formOften" for="3" class="btn-radio rounded border btn-block py-3 text-center pointer">
+                                    <p class="h3 m-0 font-weight-normal">4 Hours</p>
+                                    <p class="h3 m-0 font-weight-normal d-flex align-items-center justify-content-center text-warning">
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">AED</span>
+                                        <span class="h1 font-weight-normal my-0 mx-1">35</span>
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">/HR</span>
+                                    </p>
+                                </label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="4" name="duration" class="d-none">
+                                <label data-toggle="navigate" data-target="#formOften" for="4" class="btn-radio rounded border btn-block py-3 text-center pointer">
+                                    <p class="h3 m-0 font-weight-normal">5 Hours +</p>
+                                    <p class="h3 m-0 font-weight-normal d-flex align-items-center justify-content-center text-warning">
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">AED</span>
+                                        <span class="h1 font-weight-normal my-0 mx-1">35</span>
+                                        <span class="h5 mt-2 mb-0 font-weight-normal">/HR</span>
+                                    </p>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formOften">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">How often do you need cleaning?
+                                    <span data-toggle="modal" data-target="#exampleModal" class="ml-1 mt-3 pointer text-black">
+                                        <small>
+                                            <u>
+                                                <i class="fa fa-info-circle"></i>
+                                            </u>
+                                        </small>
+                                    </span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="f1" name="frequency" class="d-none" checked>
+                                <label data-toggle="navigate" data-target="#formCleaningMaterials" for="f1" class="btn-radio rounded border btn-block py-5 text-center pointer most-popular">
+                                    <p class="h4 m-0 font-weight-normal">Every week</p>
+                                    <p class="h5 m-0 font-weight-normal">Same cleaner every time</p>
+                                </label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="f2" name="frequency" class="d-none">
+                                <label data-toggle="navigate" data-target="#formCleaningMaterials" for="f2" class="btn-radio rounded border btn-block py-5 text-center pointer">
+                                    <p class="h4 m-0 font-weight-normal">Every 2 weeks</p>
+                                    <p class="h5 m-0 font-weight-normal">Same cleaner every time</p>
+                                </label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="f3" name="frequency" class="d-none">
+                                <label data-toggle="navigate" data-target="#formCleaningMaterials" for="f3" class="btn-radio rounded border btn-block py-5 text-center pointer">
+                                    <p class="h4 m-0 font-weight-normal">Several times a week</p>
+                                    <p class="h5 m-0 font-weight-normal">Same cleaner every time</p>
+                                </label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="f4" name="frequency" class="d-none">
+                                <label data-toggle="navigate" data-target="#formCleaningMaterials" for="f4" class="btn-radio rounded border btn-block py-5 text-center pointer">
+                                    <p class="h4 m-0 font-weight-normal">One time only</p>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formCleaningMaterials">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">Do you need cleaning materials?</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="my" name="materials" class="d-none" checked>
+                                <label data-toggle="navigate" data-target="#formMovingDetails" for="my" class="btn-radio rounded border btn-block pointer">Yes</label>
+                            </div>
+                            <div class="col-6 col-sm-3 mb-3 d-flex">
+                                <input type="radio" id="mn" name="materials" class="d-none">
+                                <label data-toggle="navigate" data-target="#formMovingDetails" for="mn" class="btn-radio rounded border btn-block pointer">No</label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formMovingDetails">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">Where are you moving from?</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6 mb-3">
+                                <div class="dropdown">
+                                    <button class="btn-radio flex-row border rounded btn-block justify-content-between dropdown-toggle px-3 pointer" type="button"
+                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        City
+                                    </button>
+                                    <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Sharjah</a>
+                                        <a class="dropdown-item" href="#">Abu Dhabi</a>
+                                        <a class="dropdown-item" href="#">Dubai</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3 date-container">
+                                <div class="input-group is-r">
+                                    <input type="text" required onfocus="blur()" class="btn-radio bg-white form-control p-3 border rounded h-100 btn-date" placeholder="Date">
+                                    <div class="input-group-append is-a middle icon-right">
+                                        <span>
+                                            <i class="fa fa-calendar text-secondary"></i>
+                                        </span>
+                                    </div>
+                                    <i class="fa fa-check text-success input-valid"></i>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3 form-group">
+                                <input required type="text" class="btn-radio form-control p-3 border h-100" placeholder="Text Field">
+                                <i class="fa fa-check text-success input-valid"></i>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formInstructions">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">Any special instructions</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6 mb-3">
+                                <textarea name="" id="" cols="30" rows="4" placeholder="Write anything here" class="form-control py-3 border"></textarea>
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <div class="input-group phone-control">
+                                    <div class="input-group-prepend">
+                                        <button class="btn bg-white border dropdown-toggle d-flex align-items-center" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img class="phone-control-thumb" src="images/flags/png/pk.png" alt="">
+                                            <span class="phone-control-label mx-2">+92</span>
+                                        </button>
+                                        <div class="dropdown-menu p-3 w-100">
+                                            <div class="form-group m-0">
+                                                <label for="typeahead-countries">Choose country</label>
+                                                <div class="phone-control-list dropdown-max-items"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="text" required class="btn-radio form-control phone-control-input border" value="">
+                                    <i class="fa fa-check text-success input-valid"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formContactDetails">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">Your contact details and location</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <div class="floating-label">
+                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                    <i class="fa fa-check text-success input-valid"></i>
+                                    <label for="">Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <div class="floating-label">
+                                    <input type="tel" required class="btn-radio form-control p-3 border rounded" pattern="[0-9+]{1,14}" placeholder="">
+                                    <i class="fa fa-check text-success input-valid"></i>
+                                    <label for="">Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <div class="floating-label">
+                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Za-z0-9-]{1,}" placeholder="">
+                                    <i class="fa fa-check text-success input-valid"></i>
+                                    <label for="">Building and Unit No</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formPricing">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">Please choose the right moving package</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <input type="radio" id="pa" name="packages" class="d-none" checked>
+                                <label data-toggle="navigate" data-target="#formPayment" class="d-block package pointer" for="pa">
+                                    <div class="card">
+                                        <div class="card-body p-4 package-title">
+                                            <h5 class="card-title m-0 h2">Premium mover</h5>
+                                            <h6 class="card-subtitle m-0 h4">Peace of mind</h6>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-4 py-0">
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Mover rating</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Team</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Packing material</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Communication skills</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="list-group-item px-4 py-0">
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Mover rating</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Team</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Packing material</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Communication skills</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="list-group-item p-4">
+                                                <p class="d-flex align-items-center justify-content-center m-0">
+                                                    <span class="text-primary">Aed</span>
+                                                    <span class="text-primary display-4 font-weight-bold">230</span>
+                                                </p>
+                                                <p class="m-0 text-center text-secondary">Excluding VAT</p>
+                                            </li>
+                                        </ul>
+                                        <div class="card-body package-select text-uppercase text-center font-weight-bold">
+                                            Select Package
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <input type="radio" id="pb" name="packages" class="d-none">
+                                <label data-toggle="navigate" data-target="#formPayment" class="d-block package pointer" for="pb">
+                                    <div class="card">
+                                        <div class="card-body p-4 package-title">
+                                            <h5 class="card-title m-0 h2">Standard mover</h5>
+                                            <h6 class="card-subtitle m-0 h4">Peace of mind</h6>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-4 py-0">
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Mover rating</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Team</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Packing material</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Communication skills</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="list-group-item px-4 py-0">
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Mover rating</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Team</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Packing material</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Communication skills</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="list-group-item p-4">
+                                                <p class="d-flex align-items-center justify-content-center m-0">
+                                                    <span class="text-primary">Aed</span>
+                                                    <span class="text-primary display-4 font-weight-bold">230</span>
+                                                </p>
+                                                <p class="m-0 text-center text-secondary">Excluding VAT</p>
+                                            </li>
+                                        </ul>
+                                        <div class="card-body package-select text-uppercase text-center font-weight-bold">
+                                            Select Package
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <input type="radio" id="pc" name="packages" class="d-none">
+                                <label data-toggle="navigate" data-target="#formPayment" class="d-block package pointer" for="pc">
+                                    <div class="card">
+                                        <div class="card-body p-4 package-title">
+                                            <h5 class="card-title m-0 h2">Platinum mover</h5>
+                                            <h6 class="card-subtitle m-0 h4">Peace of mind</h6>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-4 py-0">
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Mover rating</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Team</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Packing material</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Communication skills</span>
+                                                    <span class="text-warning">
+                                                        <i class="fa fa-star"></i>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="list-group-item px-4 py-0">
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Mover rating</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Team</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Packing material</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="d-flex align-items-center justify-content-between my-3">
+                                                    <span>Communication skills</span>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-check"></i>
+                                                    </span>
+                                                </p>
+                                            </li>
+                                            <li class="list-group-item p-4">
+                                                <p class="d-flex align-items-center justify-content-center m-0">
+                                                    <span class="text-primary">Aed</span>
+                                                    <span class="text-primary display-4 font-weight-bold">230</span>
+                                                </p>
+                                                <p class="m-0 text-center text-secondary">Excluding VAT</p>
+                                            </li>
+                                        </ul>
+                                        <div class="card-body package-select text-uppercase text-center font-weight-bold">
+                                            Select Package
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formPayment">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">How would you like to pay?</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="radio" id="credit" name="payment" class="d-none" checked>
+                                <label data-toggle="navigate" data-target="#formLoginOrSignup" class="d-block payment package pointer" for="credit">
+                                    <div class="card">
+                                        <div class="card-body p-4 package-title border-bottom text-center">
+                                            <h5 class="card-title m-0 h3">Credit card</h5>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p class="package-detail">Verify your card now, pay only when service is delivered. Your card will be verified
+                                                for 1 AED and then the 1 AED will be reversed</p>
+                                            <hr>
+                                            <p class="text-primary">Get 10% off on first cleaning when pay by card</p>
+                                            <img src="images/visa.png" alt="" height="32">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="radio" id="cash" name="payment" class="d-none">
+                                <label data-toggle="navigate" data-target="#formLoginOrSignup" class="d-block payment package pointer" for="cash">
+                                    <div class="card">
+                                        <div class="card-body p-4 package-title border-bottom text-center">
+                                            <h5 class="card-title m-0 h3">Cash on delivery</h5>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <p class="package-detail">No card? No problem, Just pay our cleaners cash when the job is done.</p>
+                                            <hr>
+                                            <p class="text-primary">100% Secure, Easy payment, Trusted partners</p>
+                                            <img src="images/money.svg" alt="" height="32">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formLoginOrSignup">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="mb-3 font-weight-normal">Login / Signup</h3>
+                            </div>
+                        </div>
+                        <div class="tab-content bg-white p-4 border">
+                            <div class="collapse show multi-collapse" id="formSignup">
+                                <div class="row">
+                                    <div class="col-xs-12 col">
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <div class="h4 text-center">Signup using email</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col mb-3 pr-2">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">First Name</label>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-3 pl-2">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">Last Name</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">Email</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">Password</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3 d-none">
+                                            <div class="col">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">Name</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <button class="btn btn-lg btn-primary btn-block">Signup</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 d-md-none">
+                                        <div class="divider text-center text-uppercase font-weight-bold my-3">Or</div>
+                                    </div>
+                                    <div class="col-auto d-none d-md-flex">
+                                        <div class="divider vertical">OR</div>
+                                    </div>
+                                    <div class="col d-flex flex-column justify-content-center">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="h4 text-center">Signup using social media</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mt-3">
+                                                <button class="btn btn-lg btn-block btn-facebook">
+                                                    <i class="fa fa-facebook mr-2"></i>Signup with Facebook
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mt-3">
+                                                <button class="btn btn-lg btn-block btn-google">
+                                                    <i class="fa fa-google mr-2"></i>Signup with Google
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mt-3 text-center">
+                                                <p>Already have an account?
+                                                    <a href=".multi-collapse" data-toggle="collapse">
+                                                        <u>Login</u>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multi-collapse collapse" id="formLogin">
+                                <div class="row">
+                                    <div class="col-xs-12 col">
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <div class="h4 text-center">Login using email</div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">Email</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <div class="floating-label">
+                                                    <input type="text" required class="btn-radio form-control p-3 border rounded" pattern="[A-Z].{0,}" placeholder="">
+                                                    <i class="fa fa-check text-success input-valid"></i>
+                                                    <label for="">Password</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <button class="btn btn-lg btn-primary btn-block">Login</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 d-md-none">
+                                        <div class="divider text-center text-uppercase font-weight-bold my-3">Or</div>
+                                    </div>
+                                    <div class="col-auto d-none d-md-flex">
+                                        <div class="divider vertical">OR</div>
+                                    </div>
+                                    <div class="col d-flex flex-column justify-content-center">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="h4 text-center">Login using social media</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mt-3">
+                                                <button class="btn btn-lg btn-block btn-facebook">
+                                                    <i class="fa fa-facebook mr-2"></i>Login with Facebook
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 mt-3">
+                                                <button class="btn btn-lg btn-block btn-google">
+                                                    <i class="fa fa-google mr-2"></i>Login with Google
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <nav class="row">
+                                            <div class="col-12 mt-3 text-center">
+                                                <p>Don't have an account?
+                                                    <a href=".multi-collapse" data-toggle="collapse">
+                                                        <u>Signup</u>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    </div>
+                    <!-- Sidebar -->
+                    <div class="col-md-3 ml-auto d-lg-block d-none">
+                        <div class="row sticky-sidebar">
+                            <div class="col">
+                                <div class="card mb-3">
+                                    <h5 class="h3 card-header text-primary bg-white p-3">Booking Summary</h5>
+                                    <div class="card-body py-0">
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <small>
+                                                    <b>Number of cleaners:</b>
+                                                </small>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">
+                                                    <small>1</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <small>
+                                                    <b>Duration:</b>
+                                                </small>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">
+                                                    <small>4 Hours</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <small>
+                                                    <b>Frequency:</b>
+                                                </small>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">
+                                                    <small>Every week</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <small>
+                                                    <b>Date:</b>
+                                                </small>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">
+                                                    <small>12/04/2018</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <small>
+                                                    <b>Week day:</b>
+                                                </small>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">
+                                                    <small>Thursday</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <small>
+                                                    <b>Preferred Time:</b>
+                                                </small>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">
+                                                    <small>10 Am</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item py-4">
+                                            <div class="input-group border rounded p-2">
+                                                <input type="text" class="form-control border-0" placeholder="Enter promo code" aria-describedby="basic-addon2">
+                                                <div class="input-group-append">
+                                                    <button class="btn border bg-white text-primary rounded px-4 font-weight-bold" type="button">Apply</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto mr-auto">
+                                                    <p class="h4 m-0 font-weight-bold">Total to pay</p>
+                                                </div>
+                                                <div class="col-auto ml-auto text-warning d-flex align-items-center">
+                                                    <span class="h5 mt-2 mb-0">AED</span>
+                                                    <span class="h1 font-weight-bold m-0">230</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="py-5 mb-3 spacer d-lg-none"></div>
+                <div class="row d-none d-lg-block">
+                    <div class="col-lg-8">
+                        <div class="row pt-4 pb-5">
+                            <div class="col-lg-6 ml-auto">
+                                <button class="btn btn-block btn-warning py-3 text-uppercase font-weight-bold">Continue Booking</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid fixed-bottom bg-white border-top d-lg-none hide-on-focus">
+                <div class="row">
+                    <div class="col-6 px-0 d-flex">
+                        <button data-toggle="modal" data-target="#exampleModal" class="btn btn-block rounded-0 btn-dark py-3 font-weight-bold">
+                            <span class="text-uppercase">Summary</span>
+                        </button>
+                    </div>
+                    <div class="col-6 px-0 d-flex">
+                        <button class="btn btn-block rounded-0 btn-warning py-3 font-weight-bold">
+                            <span class="text-uppercase">Continue Booking</span>
+                            <span class="d-block">
+                                <small>Next step (Contact details)</small>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Booking Information Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex align-items-center">
+                            <h5 class="modal-title" id="exampleModalLabel">Booking Information</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <h5 class="h3 card-header text-primary bg-white p-3">Booking Summary</h5>
+                                        <div class="card-body py-0">
+                                            <div class="row my-3">
+                                                <div class="col-auto">
+                                                    <strong class="text-secondary">Number of cleaners:</strong>
+                                                </div>
+                                                <div class="col-5 ml-auto">
+                                                    <span class="text-secondary">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-auto">
+                                                    <strong class="text-secondary">Duration:</strong>
+                                                </div>
+                                                <div class="col-5 ml-auto">
+                                                    <span class="text-secondary">4 Hours</span>
+                                                </div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-auto">
+                                                    <strong class="text-secondary">Frequency:</strong>
+                                                </div>
+                                                <div class="col-5 ml-auto">
+                                                    <span class="text-secondary">Every week</span>
+                                                </div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-auto">
+                                                    <strong class="text-secondary">Date:</strong>
+                                                </div>
+                                                <div class="col-5 ml-auto">
+                                                    <span class="text-secondary">12/04/2018</span>
+                                                </div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-auto">
+                                                    <strong class="text-secondary">Week day:</strong>
+                                                </div>
+                                                <div class="col-5 ml-auto">
+                                                    <span class="text-secondary">Thursday</span>
+                                                </div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-auto">
+                                                    <strong class="text-secondary">Preferred time:</strong>
+                                                </div>
+                                                <div class="col-5 ml-auto">
+                                                    <span class="text-secondary">10 Am</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item py-4">
+                                                <div class="input-group border rounded p-2">
+                                                    <input type="text" class="form-control border-0" placeholder="Enter promo code" aria-describedby="basic-addon2">
+                                                    <div class="input-group-append">
+                                                        <button class="btn border bg-white text-primary rounded px-4" type="button">Apply</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row p-2 align-items-center">
+                                                    <div class="col-auto mr-auto">
+                                                        <p class="h3 m-0 font-weight-bold">Total to pay</p>
+                                                    </div>
+                                                    <div class="col-auto ml-auto text-warning d-flex align-items-center">
+                                                        <span class="h5 mt-2 mb-0">AED</span>
+                                                        <span class="h1 font-weight-bold m-0">230</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-lg btn-block btn-primary" data-dismiss="modal">Confirm Booking</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="//cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+    <script src="//use.fontawesome.com/09675851a6.js"></script>
+
+    <script type="text/template" id="template-country-item">
+        <div class="btn btn-light d-flex align-items-center rounded-0 pointer" data-value="{{dial_code}}" onclick="phoneControl(this);">
+            <img src="images/flags/png/{{code}}.png" alt="">
+            <span class="ml-2">{{name}} {{dial_code}}</span>
+        </div>
+    </script>
+
+    <script>
+        var countryCodes = '';
+        var isMobile = $(window).width() < 768 ? true : false;
+
+        fetch('data/country-calling-codes.json')
+            .then((resp) => resp.json())
+            .then(function (data) {
+                countryCodes = data;
+                d = document.querySelectorAll('.phone-control-list');
+
+                for (i = 0; i < d.length; i++) {
+                    d[i].innerHTML = listCreateHtml(data);
+                }
+            });
+
+        function listCreateHtml(data) {
+            var template = document.getElementById("template-country-item");
+            var templateHtml = template.innerHTML;
+            var listHtml = '';
+
+            for (var key in data) {
+                listHtml += templateHtml.replace(/{{dial_code}}/g, data[key]["dial_code"])
+                    .replace(/{{code}}/g, data[key]["code"])
+                    .replace(/{{name}}/g, data[key]["name"]);
+            }
+
+            return listHtml;
+        }
+
+        function phoneControl(elem) {
+            parent = $(elem).parents('.phone-control');
+            parentThumb = parent.find('.phone-control-thumb');
+            parentInput = parent.find('.phone-control-input');
+            parentLabel = parent.find('.phone-control-label');
+
+            targetThumb = $(elem).find('img').attr('src');
+
+            parentThumb.attr('src', targetThumb);
+            parentLabel.text(elem.dataset.value);
+            parentInput.focus();
+        }
+
+        $(document).ready(function () {
+            // $('main').css('padding-top', $('header').height());
+            if (!isMobile) {
+                $('.sticky').stick_in_parent();
+                $('.sticky-sidebar').stick_in_parent({
+                    offset_top: 75
+                });
+            }
+        });
+
+        // Radio button selection scroll to next section
+        if (isMobile) {
+            $('[data-toggle="navigate"]').click(function () {
+                targetHash = $(this).attr('data-target');
+                $('html, body').animate({
+                    scrollTop: $(targetHash).offset().top - 32
+                }, 400);
+            });
+        }
+
+        $('.btn-date').datepicker({
+            autoclose: true,
+            container: $('.date-container'),
+            templates: {
+                leftArrow: '<i class="fa fa-angle-left"></i>',
+                rightArrow: '<i class="fa fa-angle-right"></i>'
+            }
+        });
+
+        $('.btn-date').focus(function () {
+            t = $(this);
+            if (isMobile) {
+                $('html, body').animate({
+                    scrollTop: t.offset().top - 14
+                }, 100);
+            }
+        });
+
+        $('.floating-label label').click(function () {
+            p = $(this).siblings('input');
+            p.focus();
+        });
+
+        $('.floating-label input').focusout(function () {
+            // filled input field
+            if ($(this).val().trim() != '') {
+                $(this).parent().addClass('active');
+            } else {
+                $(this).parent().removeClass('active');
+            }
+        });
+    </script>
+</body>
+
+</html>

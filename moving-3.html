@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moving - Step 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker3.standalone.min.css"
+    />
+    <link rel="stylesheet" href="fonts/helvetica.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 shadow-1">
+            <a class="navbar-brand px-3" href="#">
+                <img src="images/logo-dark.png" height="32" alt="ServiceMarket">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav align-items-lg-center justify-content-between flex-fill">
+                    <li class="nav-item dropdown py-lg-3 px-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Our Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Service 1</a>
+                            <a class="dropdown-item" href="#">Service 2</a>
+                            <a class="dropdown-item" href="#">Service 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item flex-fill px-3 d-none d-lg-block">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light dropdown-toggle border" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dubai </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Abu Dhabi</a>
+                                    <a class="dropdown-item" href="#">Sharjah</a>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control border-right-0">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white border-left-0">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3 d-none d-lg-block">
+                        <a href="tel:923222222222" class="text-dark">
+                            <span class="d-block">+971 4 4229639</span>
+                            <span class="d-block">
+                                <small>Sat - Thu: 8am - 8pm Fri: 9am - 6pm</small>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#" class="text-dark">
+                            <strong>Login / Signup</strong>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="">
+        <nav class="steps bg-white pb-4 pt-3 border-bottom sticky hide-on-focus">
+            <div class="container">
+                <!-- Stepper -->
+                <ul class="steps px-4 list-unstyled m-0 d-flex align-items-center justify-content-between">
+                    <li class="step col-auto text-center complete">
+                        <a href="moving-1.html">
+                            <span class="step-icon"></span>
+                            <p class="step-label h6 m-0 text-nowrap">Move details</p>
+                        </a>
+                    </li>
+                    <li class="step-lines col"></li>
+                    <li class="step col-auto text-center complete">
+                        <a href="moving-2.html">
+                            <span class="step-icon"></span>
+                            <p class="step-label h6 m-0 text-nowrap">Contact details</p>
+                        </a>
+                    </li>
+                    <li class="step-lines col"></li>
+                    <li class="step col-auto text-center active">
+                        <span class="step-icon"></span>
+                        <p class="step-label h6 m-0 text-nowrap">Payment</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <section id="formCleaners">
+                        <div class="row mb-4">
+                            <div class="col text-center text-md-left">
+                                <h3 class="m-0 font-weight-normal">Please choose the right moving package</h3>
+                                <p class="text-secondary mt-0">Choose the type of mover and budget that suits you. Book now and you only pay when the service
+                                    is complete</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formPricing" class="pricing mb-4">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div class="mb-3">
+                                    <input type="radio" id="pa" name="packages" class="d-none" checked>
+                                    <label class="d-block package payment pointer" for="pa">
+                                        <div class="card">
+                                            <div class="card-body p-3 package-title">
+                                                <h5 class="card-title m-0 h3">Standard Mover</h5>
+                                                <h6 class="card-subtitle m-0 h5">Most popular</h6>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item d-flex d-md-none align-items-end justify-content-between">
+                                                    <p class="m-0">
+                                                        <span class="text-warning h2 m-0 font-weight-bold">1300</span>
+                                                        <span class="text-warning m-0">AED</span>
+                                                    </p>
+                                                    <p class="m-0 text-center text-black">*excluding VAT</p>
+                                                </li>
+                                                <li class="list-group-item px-3 py-0">
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Mover rating</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Team</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Packing material</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Communication skills</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item px-3 py-0">
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Uniform</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Boxes</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Dis-Assembly / Assembly</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Offers Insurance</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>International Certification</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Closed Trucks</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item d-none d-md-block p-3">
+                                                    <p class="d-flex align-items-center justify-content-center m-0">
+                                                        <span class="text-warning">AED</span>
+                                                        <span class="text-warning h1 font-weight-bold">1300</span>
+                                                    </p>
+                                                    <p class="m-0 text-center text-black h5">Excluding VAT</p>
+                                                </li>
+                                            </ul>
+                                            <div class="card-body package-select text-uppercase text-center">
+                                                Select Package
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="mb-3">
+                                    <input type="radio" id="pb" name="packages" class="d-none">
+                                    <label class="d-block package payment pointer" for="pb">
+                                        <div class="card">
+                                            <div class="card-body p-3 package-title">
+                                                <h5 class="card-title m-0 h3">Premium Mover</h5>
+                                                <h6 class="card-subtitle m-0 h5">Peace of mind</h6>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item d-flex d-md-none align-items-end justify-content-between">
+                                                    <p class="m-0">
+                                                        <span class="text-warning h2 m-0 font-weight-bold">1700</span>
+                                                        <span class="text-warning m-0">AED</span>
+                                                    </p>
+                                                    <p class="m-0 text-center text-black">*excluding VAT</p>
+                                                </li>
+                                                <li class="list-group-item px-3 py-0">
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Mover rating</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Team</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Packing material</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Communication skills</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item px-3 py-0">
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Uniform</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Boxes</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Dis-Assembly / Assembly</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Offers Insurance</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>International Certification</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Closed Trucks</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item d-none d-md-block p-3">
+                                                    <p class="d-flex align-items-center justify-content-center m-0">
+                                                        <span class="text-warning">AED</span>
+                                                        <span class="text-warning h1 font-weight-bold">1700</span>
+                                                    </p>
+                                                    <p class="m-0 text-center text-black h5">Excluding VAT</p>
+                                                </li>
+                                            </ul>
+                                            <div class="card-body package-select text-uppercase text-center">
+                                                Select Package
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="mb-3">
+                                    <input type="radio" id="pc" name="packages" class="d-none">
+                                    <label class="d-block package payment pointer" for="pc">
+                                        <div class="card">
+                                            <div class="card-body p-3 package-title">
+                                                <h5 class="card-title m-0 h3">Budget Mover</h5>
+                                                <h6 class="card-subtitle m-0 h5">Saver option</h6>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item d-flex d-md-none align-items-end justify-content-between">
+                                                    <p class="m-0">
+                                                        <span class="text-warning h2 m-0 font-weight-bold">1000</span>
+                                                        <span class="text-warning m-0">AED</span>
+                                                    </p>
+                                                    <p class="m-0 text-center text-black">*excluding VAT</p>
+                                                </li>
+                                                <li class="list-group-item px-3 py-0">
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Mover rating</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Team</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Packing material</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Communication skills</span>
+                                                        <span class="text-primary">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </span>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item px-3 py-0">
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Uniform</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Boxes</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Dis-Assembly / Assembly</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Offers Insurance</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>International Certification</span>
+                                                        <span class="text-danger">
+                                                            <i class="fa fa-times"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-flex align-items-center justify-content-between my-3">
+                                                        <span>Closed Trucks</span>
+                                                        <span class="text-success">
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                    </p>
+                                                </li>
+                                                <li class="list-group-item d-none d-md-block p-3">
+                                                    <p class="d-flex align-items-center justify-content-center m-0">
+                                                        <span class="text-warning">AED</span>
+                                                        <span class="text-warning h1 font-weight-bold">1000</span>
+                                                    </p>
+                                                    <p class="m-0 text-center text-black h5">Excluding VAT</p>
+                                                </li>
+                                            </ul>
+                                            <div class="card-body package-select text-uppercase text-center">
+                                                Select Package
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="formPayment" class="payment">
+                        <div class="row">
+                            <div class="col text-center text-md-left">
+                                <h3 class="mb-3 font-weight-normal">How would you like to pay?</h3>
+                            </div>
+                        </div>
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div class="mb-3">
+                                    <input type="radio" id="credit" name="payment" class="d-none" checked>
+                                    <label class="d-block payment package pointer" for="credit">
+                                        <div class="card">
+                                            <div class="card-body p-4 package-title border-bottom text-center">
+                                                <h5 class="card-title m-0 h3">Credit card</h5>
+                                            </div>
+                                            <div class="card-body text-center">
+                                                <p class="package-detail">Verify your card now, pay only when service is delivered. Your card will
+                                                    be verified for 1 AED and then the 1 AED will be reversed</p>
+                                                <hr>
+                                                <p class="text-primary">Get 10% off on first cleaning when pay by card</p>
+                                                <img class="mx-auto" src="images/visa.png" alt="" height="32">
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="mb-3">
+                                    <input type="radio" id="cash" name="payment" class="d-none">
+                                    <label class="d-block payment package pointer" for="cash">
+                                        <div class="card">
+                                            <div class="card-body p-4 package-title border-bottom text-center">
+                                                <h5 class="card-title m-0 h3">Cash on delivery</h5>
+                                            </div>
+                                            <div class="card-body text-center">
+                                                <p class="package-detail">No card? No problem, Just pay our cleaners cash when the job is done.</p>
+                                                <hr>
+                                                <p class="text-primary">100% Secure, Easy payment, Trusted partners</p>
+                                                <img class="mx-auto" src="images/money.svg" alt="" height="32">
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Sidebar -->
+                <div class="col-md-3 ml-auto d-lg-block d-none">
+                    <div class="row sticky-sidebar">
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <h5 class="h3 card-header text-primary bg-white p-3">Booking summary</h5>
+                                <div class="card-body px-3 py-0">
+                                    <div class="row my-3">
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <small>
+                                                        <b>Type of move:</b>
+                                                    </small>
+                                                </div>
+                                                <div class="col-12 ml-auto">
+                                                    <span class="text-secondary">
+                                                        <small>Local</small>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <small>
+                                                        <b>Type of home:</b>
+                                                    </small>
+                                                </div>
+                                                <div class="col-12 ml-auto">
+                                                    <span class="text-secondary">
+                                                        <small>Apartment</small>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <small>
+                                                        <b>Moving from:</b>
+                                                    </small>
+                                                </div>
+                                                <div class="col-12 ml-auto">
+                                                    <span class="text-secondary">
+                                                        <small>Dubai</small>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <small>
+                                                        <b>Moving to:</b>
+                                                    </small>
+                                                </div>
+                                                <div class="col-12 ml-auto">
+                                                    <span class="text-secondary">
+                                                        <small>Sharjah</small>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col-12">
+                                            <small>
+                                                <b>Scheduled for:</b>
+                                            </small>
+                                        </div>
+                                        <div class="col-12 ml-auto">
+                                            <span class="text-secondary">
+                                                <small>11/06/2018</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item py-4">
+                                        <div class="input-group border rounded p-2">
+                                            <input type="text" class="form-control border-0 input-placeholder" placeholder="Promo code">
+                                            <div class="input-group-append">
+                                                <button class="btn border bg-white text-primary rounded px-3 font-weight-bold" type="button">Apply</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto pr-0 mr-auto">
+                                                <p class="h5 m-0 font-weight-bold">Total to pay</p>
+                                            </div>
+                                            <div class="col-auto pl-0 ml-auto text-warning d-flex align-items-center">
+                                                <span class="h5 mt-2 mb-0">AED</span>
+                                                <span class="h2 font-weight-bold m-0">1130</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card border-0">
+                                    <div class="card-header border p-0" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn bg-white p-3 d-flex w-100 align-items-center justify-content-between rounded-0" data-toggle="collapse"
+                                                data-target="#collapseMain">
+                                                <span>Have a question?</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseMain" class="collapse border p-2">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card border-0">
+                                                <div class="card-header p-0" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-block text-left bg-white text-sm m-0" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            How does this booking work?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                    <div class="card-body text-sm">
+                                                        You book your service online. We will send you an email confirmation when we have assigned one of our service partners to
+                                                        you. Our service partner will call you to understand the specifics
+                                                        of the job.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0">
+                                                <div class="card-header p-0" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-block text-left bg-white text-sm m-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                                            aria-expanded="false" aria-controls="collapseTwo">
+                                                            What is the price of the service?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                    <div class="card-body text-sm">
+                                                        The cost of your move will depend on the size of your home, and the type of mover you choose. The bigger your move, the higher
+                                                        the cost. You can also choose from budget movers (who are more cost-effective),
+                                                        Standard movers (great value for money), and premium movers (internationally
+                                                        certified movers, with insurance).
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0">
+                                                <div class="card-header p-0" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-block text-left bg-white text-sm m-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                                            aria-expanded="false" aria-controls="collapseThree">
+                                                            How do i pay for the service?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                    <div class="card-body text-sm">
+                                                        You may select to pay with your credit card, or you may pay the technicians in cash. In either case, you will only be charged
+                                                        once the job is completed.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="py-5 mb-3 spacer d-lg-none"></div>
+            <div class="row d-none d-lg-block">
+                <div class="col-lg-8">
+                    <div class="row pt-4 pb-5">
+                        <div class="col-lg-6 ml-auto">
+                            <button class="btn btn-block btn-warning py-3 text-uppercase font-weight-bold">
+                                <span class="text-uppercase">Book Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid fixed-bottom bg-white border-top d-lg-none hide-on-focus">
+            <div class="row">
+                <div class="col-6 px-0 d-flex">
+                    <button data-toggle="modal" data-target="#exampleModal" class="clear-focus btn btn-block rounded-0 btn-dark py-3 font-weight-bold">
+                        <span class="text-uppercase">Summary</span>
+                    </button>
+                </div>
+                <div class="col-6 px-0 d-flex">
+                    <button class="clear-focus btn btn-block rounded-0 btn-warning py-3 font-weight-bold">
+                        <span class="text-uppercase">Book Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Information Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header d-flex align-items-center">
+                        <h5 class="modal-title" id="exampleModalLabel">Booking Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <h5 class="h3 card-header text-primary bg-white p-3">Booking Summary</h5>
+                                    <div class="card-body py-0">
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <strong class="text-secondary">Number of cleaners:</strong>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">1</span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <strong class="text-secondary">Duration:</strong>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">4 Hours</span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <strong class="text-secondary">Frequency:</strong>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">Every week</span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <strong class="text-secondary">Date:</strong>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">12/04/2018</span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <strong class="text-secondary">Week day:</strong>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">Thursday</span>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-auto">
+                                                <strong class="text-secondary">Preferred time:</strong>
+                                            </div>
+                                            <div class="col-5 ml-auto">
+                                                <span class="text-secondary">10 Am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item py-4">
+                                            <div class="input-group border rounded p-2">
+                                                <input type="text" class="form-control border-0" placeholder="Enter promo code" aria-describedby="basic-addon2">
+                                                <div class="input-group-append">
+                                                    <button class="btn border bg-white text-primary rounded px-4" type="button">Apply</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto pr-0 mr-auto">
+                                                    <p class="h5 m-0 font-weight-bold">Total to pay</p>
+                                                </div>
+                                                <div class="col-auto pl-0 ml-auto text-warning d-flex align-items-center">
+                                                    <span class="h5 mt-2 mb-0">AED</span>
+                                                    <span class="h2 font-weight-bold m-0">1130</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-block btn-primary" data-dismiss="modal">Confirm Booking</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="//twitter.github.io/typeahead.js/releases/latest/typeahead.jquery.js"></script>
+    <script src="//cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="//use.fontawesome.com/09675851a6.js"></script>
+
+    <script type="text/template" id="template-country-item">
+        <div class="btn btn-light d-flex align-items-center rounded-0 pointer" data-value="{{dial_code}}" onclick="phoneControl(this);">
+            <img src="images/flags/png/{{code}}.png" alt="">
+            <span class="ml-2">{{name}} {{dial_code}}</span>
+        </div>
+    </script>
+
+    <script>
+        var countryCodes = '';
+        var isMobile = $(window).width() < 768 ? true : false;
+
+        fetch('data/country-calling-codes.json')
+            .then((resp) => resp.json())
+            .then(function (data) {
+                countryCodes = data;
+                d = document.querySelectorAll('.phone-control-list');
+
+                for (i = 0; i < d.length; i++) {
+                    d[i].innerHTML = listCreateHtml(data);
+                }
+            });
+
+        function listCreateHtml(data) {
+            var template = document.getElementById("template-country-item");
+            var templateHtml = template.innerHTML;
+            var listHtml = '';
+
+            for (var key in data) {
+                listHtml += templateHtml.replace(/{{dial_code}}/g, data[key]["dial_code"])
+                    .replace(/{{code}}/g, data[key]["code"])
+                    .replace(/{{name}}/g, data[key]["name"]);
+            }
+
+            return listHtml;
+        }
+
+        function phoneControl(elem) {
+            parent = $(elem).parents('.phone-control');
+            parentThumb = parent.find('.phone-control-thumb');
+            parentInput = parent.find('.phone-control-input');
+            parentLabel = parent.find('.phone-control-label');
+
+            targetThumb = $(elem).find('img').attr('src');
+
+            parentThumb.attr('src', targetThumb);
+            parentLabel.text(elem.dataset.value);
+            parentInput.focus();
+        }
+
+        $(document).ready(function () {
+            // $('main').css('padding-top', $('header').height());
+            if (!isMobile) {
+                $('.sticky').stick_in_parent();
+                $('.sticky-sidebar').stick_in_parent({
+                    offset_top: 75
+                });
+            }
+        });
+
+        // Radio button selection scroll to next section
+        if (isMobile) {
+            $('[data-toggle="navigate"]').click(function () {
+                targetHash = $(this).attr('data-target');
+                $('html, body').animate({
+                    scrollTop: $(targetHash).offset().top - 32
+                }, 400);
+            });
+        }
+
+        $('.btn-date').datepicker({
+            autoclose: true,
+            container: $('.date-container'),
+            templates: {
+                leftArrow: '<i class="fa fa-angle-left"></i>',
+                rightArrow: '<i class="fa fa-angle-right"></i>'
+            }
+        });
+
+        $('.btn-date').focus(function () {
+            t = $(this);
+            if (isMobile) {
+                $('html, body').animate({
+                    scrollTop: t.offset().top - 14
+                }, 100);
+            }
+        });
+
+        $('.floating-label label').click(function () {
+            t = $(this);
+            p = t.parents('.floating-label');
+            p.addClass('active');
+            p.find('input').focus();
+        });
+
+        $('.floating-label input').focusout(function () {
+            t = $(this);
+            // filled input field
+            if (t.val().trim() != '') {
+                t.parents('.floating-label').addClass('active');
+            } else {
+                t.parents('.floating-label').removeClass('active');
+            }
+        });
+
+        $('.autofill input').click(function () {
+            t = $(this);
+            p = t.parents('.autofill');
+            p.addClass('active');
+        });
+
+        var substringMatcher = function (strs) {
+            return function findMatches(q, cb) {
+                var matches, substringRegex;
+
+                // an array that will be populated with substring matches
+                matches = [];
+
+                // regex used to determine if a string contains the substring `q`
+                substrRegex = new RegExp(q, 'i');
+
+                // iterate through the pool of strings and for any string that
+                // contains the substring `q`, add it to the `matches` array
+                $.each(strs, function (i, str) {
+                    if (substrRegex.test(str)) {
+                        matches.push(str);
+                    }
+                });
+
+                cb(matches);
+            };
+        };
+
+        var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
+            'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
+            'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+            'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+            'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+            'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+            'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+            'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+            'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+        ];
+
+        $('#inputArea .typeahead').typeahead({
+            hint: false,
+            highlight: false,
+            minLength: 1,
+            classNames: {
+                input: 'd-block',
+                menu: 'w-100 bg-white',
+                suggestion: 'btn btn-block btn-outline-primary border-0 text-left m-0',
+                open: 'border p-2 rounded'
+            }
+        }, {
+            name: 'states',
+            source: substringMatcher(states)
+        });
+
+        var buildings = ['J0', 'J1', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'J9', 'J10'];
+
+        $('#inputBuilding .typeahead').typeahead({
+            hint: false,
+            highlight: false,
+            minLength: 1,
+            classNames: {
+                input: 'd-block',
+                menu: 'w-100 bg-white',
+                suggestion: 'btn btn-block btn-outline-primary border-0 text-left m-0',
+                open: 'border p-2 rounded'
+            }
+        }, {
+            name: 'states',
+            source: substringMatcher(buildings)
+        });
+
+        var owlPricing = $('.pricing .owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            dots: false,
+            center: false,
+            pullDrag: false,
+            freeDrag: false,
+            verticalSwiping: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    stagePadding: 35
+                },
+                480: {
+                    stagePadding: 50
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+        var owlPayment = $('.payment .owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            dots: false,
+            center: false,
+            pullDrag: false,
+            freeDrag: false,
+            verticalSwiping: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    stagePadding: 35
+                },
+                480: {
+                    stagePadding: 50
+                },
+                600: {
+                    items: 2
+                }
+            }
+        });
+
+        // Custom Navigation Events
+        $(document).on('click', '.owl-item', function () {
+            n = $(this).index();
+            p = $(this).parents('.owl-carousel');
+            p.trigger('to.owl.carousel', n);
+        });
+    </script>
+</body>
+
+</html>
