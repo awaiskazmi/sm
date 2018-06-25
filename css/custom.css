@@ -15,12 +15,16 @@
 :root {
     --primary: #01788e;
     --secondary: #ed6329;
+    --primary-dark: #054351;
 }
 
 html,
 body {
     background-color: #fbfbfb;
 }
+
+.bg-primary-dark { background-color: var(--primary-dark); }
+.text-primary-dark { color: var(--primary-dark); }
 
 .text {
     cursor: text;
@@ -641,4 +645,21 @@ input[type="text"]:valid~.input-valid {
     border: 10px solid #dee2e6;
     background-color: #fff;
     margin: -80px auto 20px auto;
+}
+
+.no-underline,
+.no-underline:hover,
+.no-underline:active,
+.no-underline:focus {
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer-top {
+    background: var(--primary) url('../images/footer-bg.png') center/cover no-repeat;
+}
+
+.footer-bottom {
+    background: var(--primary-dark);
 }
