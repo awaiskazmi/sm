@@ -577,12 +577,12 @@ input[type="text"]:valid~.input-valid {
 
 .gallery .owl-prev {
     left: 0;
-    transform: translate(-125%, 0);
+    transform: translate(-115%, 0);
 }
 
 .gallery .owl-next {
     right: 0;
-    transform: translate(125%, 0);
+    transform: translate(115%, 0);
 }
 
 @media(min-width: 768px) {
@@ -662,4 +662,12 @@ input[type="text"]:valid~.input-valid {
 
 .footer-bottom {
     background: var(--primary-dark);
+}
+
+.drawer-overlay {
+    z-index: 2 !important;
+}
+
+.drawer-nav {
+    z-index: 3 !important;
 }
