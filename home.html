@@ -29,12 +29,12 @@
         <div class="bg-primary p-4 text-center">
             <img src="images/logo.svg" height="40" class="mw-100" alt="">
         </div>
-        <a class="btn btn-block btn-link text-primary text-left py-3 px-4 border border-bottom-0 rounded-0 no-underline d-flex align-items-center justify-content-between">
+        <a class="btn btn-block btn-link text-dark text-left py-3 px-4 border border-bottom-0 rounded-0 no-underline d-flex align-items-center justify-content-between">
             Login
         </a>
         <div class="accordion rounded-0" id="accordionExample">
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Moving and storage
                 </button>
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Home & Car Insurance
                 </button>
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Cleaning Services
                 </button>
@@ -85,31 +85,31 @@
                 </div>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button">
                     Painting & Handyman
                 </button>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button">
                     Garden & Pest Control
                 </button>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button">
                     Maids, Nannies & Nurses
                 </button>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button">
                     Events & Catering
                 </button>
             </div>
             <div class="card rounded-0">
-                <button class="btn btn-link py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
+                <button class="btn btn-link text-dark py-3 px-4 collapsed no-underline dropdown-toggle d-flex align-items-center justify-content-between"
                     type="button">
                     Change CIty
                 </button>
@@ -132,20 +132,33 @@
     </div>
     <header class="">
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 shadow-1">
-            <span class="pointer d-md-none" data-toggle="collapse" data-target="#drawer">
-                <i class="fa fa-bars mr-2"></i>
-                <span>Menu Item</span>
-            </span>
-            <a class="navbar-brand px-3 mr-0" href="#">
-                <img class="" src="images/logo-dark.png" height="32" alt="ServiceMarket">
-            </a>
+            <div class="d-flex align-items-center justify-content-between">
+                <span class="pointer drawer-toggle d-md-none" data-toggle="collapse" data-target="#drawer">
+                    <i class="fa fa-bars mr-1 text-secondary" style="font-size: 1.3em;"></i>
+                </span>
+                <a class="navbar-brand px-3 py-3 mr-0" href="#">
+                    <img class="" src="images/logo-dark.png" height="32" alt="ServiceMarket">
+                </a>
+            </div>
+            <div class="d-flex d-md-none align-items-center justify-content-between">
+                <a href="tel:923222222222" class="text-dark">
+                    <span class="h5 m-0 d-block">+971 4 4229639</span>
+                    <span class="h6 m-0 d-block">Sat - Thu: 8am - 8pm Fri: 9am - 6pm</span>
+                </a>
+                <button class="navbar-toggler border-0 ml-3 px-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <i class="fa fa-search"></i>
+                    </span>
+                </button>
+            </div>
             <button class="navbar-toggler border-0 d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav align-items-lg-center justify-content-between flex-fill">
-                    <li class="nav-item dropdown py-lg-3 px-3">
+                    <li class="nav-item dropdown py-lg-3 px-3 d-none d-md-block">
                         <a class="nav-link dropdown-toggle h5 font-weight-bold m-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             Our Services
@@ -156,7 +169,7 @@
                             <a class="dropdown-item" href="#">Service 3</a>
                         </div>
                     </li>
-                    <li class="nav-item flex-fill px-3 d-none">
+                    <li class="nav-item flex-fill px-md-3 d-md-none my-2 my-md-0">
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <button class="btn btn-light dropdown-toggle border" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dubai </button>
@@ -179,7 +192,7 @@
                             <span class="h6 m-0 d-block">Sat - Thu: 8am - 8pm Fri: 9am - 6pm</span>
                         </a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item px-3 d-none d-md-block">
                         <a href="#" class="h5 font-weight-bold m-0 text-dark">
                             <strong>Login / Signup</strong>
                         </a>
@@ -191,7 +204,7 @@
     <main class="">
         <section class="hero py-5" style="background: url('images/home-header.jpg') center/cover no-repeat;">
             <div class="py-5">
-                <div class="container py-5">
+                <div class="container py-5 px-5 px-md-3">
                     <div class="row">
                         <div class="col">
                             <h1 class="h2 text-center text-white font-weight-bold">Sit back, we'll take it from there</h1>
@@ -235,7 +248,7 @@
                                     </div>
                                 </div>
                                 <div class="dropdown flex-fill">
-                                    <input data-toggle="dropdown" type="text" class="form-control clear-focus input-placeholder rounded-0" placeholder="Start typing brother">
+                                    <input data-toggle="dropdown" type="text" class="form-control clear-focus input-placeholder rounded-0 d-flex h-100" placeholder="Start typing">
                                     <div class="dropdown-menu shadow w-100" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">
                                             <span>Local move</span>
@@ -1288,9 +1301,16 @@
         });
 
         function drawer() {
+            $('.drawer-toggle').click(function () {
+                $('html, body').css('overflow', 'hidden');
+                $('#drawer').collapse('show');
+            });
             $(document).click(function (event) {
                 if (!$(event.target).closest('#drawer').length) {
-                    $('#drawer').collapse('hide');
+                    if ($('#drawer').hasClass('show')) {
+                        $('#drawer').collapse('hide');
+                        $('html, body').css('overflow', 'unset');
+                    }
                 }
             });
         }
