@@ -14,18 +14,25 @@
     font-weight: 400;
     font-style: normal;
 }
+/* 
+@font-face {
+    font-family: 'Hell';
+    src: url('HelveticaNeue Medium.woff') format('woff'), url('HelveticaNeue Medium.ttf') format('truetype'), url('HelveticaNeueMedium.svg#HelveticaNeueLight') format('svg');
+    font-weight: 500;
+    font-style: normal;
+} */
 
 @font-face {
     font-family: 'Hell';
-    src: url('Helvetica Neu Bold.eot');
-    src: url('Helvetica Neu Bold.woff2') format('woff2'), url('Helvetica Neu Bold.eot?#iefix') format('embedded-opentype');
+    src: url('Helvetica Neu Medium.eot');
+    src: url('HelveticaNeue Medium.woff') format('woff'), url('HelveticaNeue Medium.ttf') format('truetype'), url('HelveticaNeueMedium.svg#HelveticaNeueMedium') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Hell';
-    src: url('HelveticaNeueBold.woff') format('woff'), url('HelveticaNeueBold.ttf') format('truetype'), url('HelveticaNeueBold.svg#HelveticaNeueBold') format('svg');
+    src: url('HelveticaNeue Medium.woff') format('woff'), url('HelveticaNeue Medium.ttf') format('truetype'), url('HelveticaNeueMedium.svg#HelveticaNeueMedium') format('svg');
     font-weight: 700;
     font-style: normal;
 }

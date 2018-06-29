@@ -10,19 +10,26 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker3.standalone.min.css"
     />
-    <link rel="stylesheet" href="fonts/helvetica.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="fonts/helvetica.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <style>
+        @media(max-width: 1440px) {
+            .container {
+                max-width: 1050px;
+            }
+        }
+    </style>
 </head>
 
-<body class="drawer drawer--left">
-    <div class="drawer-nav" role="navigation">
+<body>
+    <div class="drawer fixed-top bg-white h-100 collapse" id="drawer" role="navigation">
         <div class="bg-primary p-4 text-center">
             <img src="images/logo.svg" height="40" class="mw-100" alt="">
         </div>
-        <a class="btn btn-block btn-link text-primary text-left py-3 px-4 no-underline d-flex align-items-center justify-content-between">
+        <a class="btn btn-block btn-link text-primary text-left py-3 px-4 border border-bottom-0 rounded-0 no-underline d-flex align-items-center justify-content-between">
             Login
         </a>
         <div class="accordion rounded-0" id="accordionExample">
@@ -34,11 +41,11 @@
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body rounded-0 p-0">
                         <div class="list-group rounded-0">
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Cras justo odio</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Dapibus ac facilisis in</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Porta ac consectetur ac</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Cras justo odio</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Dapibus ac facilisis in</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Vestibulum at eros</a>
                         </div>
                     </div>
                 </div>
@@ -51,11 +58,11 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body rounded-0 p-0">
                         <div class="list-group rounded-0">
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Cras justo odio</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Dapibus ac facilisis in</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Porta ac consectetur ac</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Cras justo odio</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Dapibus ac facilisis in</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Vestibulum at eros</a>
                         </div>
                     </div>
                 </div>
@@ -68,11 +75,11 @@
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body rounded-0 p-0">
                         <div class="list-group rounded-0">
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Cras justo odio</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Dapibus ac facilisis in</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Porta ac consectetur ac</a>
-                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 border-left-0 border-right-0">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Cras justo odio</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Dapibus ac facilisis in</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action rounded-0 py-2 px-5 border-left-0 border-right-0">Vestibulum at eros</a>
                         </div>
                     </div>
                 </div>
@@ -125,9 +132,9 @@
     </div>
     <header class="">
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 shadow-1">
-            <span class="drawer-toggle pointer">
+            <span class="pointer d-md-none" data-toggle="collapse" data-target="#drawer">
                 <i class="fa fa-bars mr-2"></i>
-                Menu
+                <span>Menu Item</span>
             </span>
             <a class="navbar-brand px-3 mr-0" href="#">
                 <img class="" src="images/logo-dark.png" height="32" alt="ServiceMarket">
@@ -139,8 +146,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav align-items-lg-center justify-content-between flex-fill">
                     <li class="nav-item dropdown py-lg-3 px-3">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle h5 font-weight-bold m-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             Our Services
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -168,14 +175,12 @@
                     </li>
                     <li class="nav-item px-3 ml-auto d-none d-lg-block">
                         <a href="tel:923222222222" class="text-dark">
-                            <span class="d-block">+971 4 4229639</span>
-                            <span class="d-block">
-                                <small>Sat - Thu: 8am - 8pm Fri: 9am - 6pm</small>
-                            </span>
+                            <span class="h5 m-0 d-block">+971 4 4229639</span>
+                            <span class="h6 m-0 d-block">Sat - Thu: 8am - 8pm Fri: 9am - 6pm</span>
                         </a>
                     </li>
                     <li class="nav-item px-3">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="h5 font-weight-bold m-0 text-dark">
                             <strong>Login / Signup</strong>
                         </a>
                     </li>
@@ -187,11 +192,15 @@
         <section class="hero py-5" style="background: url('images/home-header.jpg') center/cover no-repeat;">
             <div class="py-5">
                 <div class="container py-5">
-                    <h1 class="h2 text-center text-white font-weight-bold">Sit back, we'll take it from there</h1>
-                    <p class="text-white text-center">Book or get free quptes for over 25 home services from trusted companies in your city.</p>
                     <div class="row">
+                        <div class="col">
+                            <h1 class="h2 text-center text-white font-weight-bold">Sit back, we'll take it from there</h1>
+                            <p class="text-white text-center">Book or get free quotes for over 25 home services from trusted companies in your city.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
                         <div class="col-12 col-md-8 mx-auto d-flex">
-                            <button class="btn btn-lg btn-light border-right dropdown-toggle mr-3" type="button" data-toggle="dropdown" aria-haspopup="true"
+                            <!-- <button class="btn btn-light border-right dropdown-toggle mr-3" type="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Select city </button>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Abu Dhabi</a>
@@ -202,17 +211,47 @@
                                 <a class="dropdown-item" href="#">Jeddah</a>
                             </div>
                             <div class="dropdown flex-fill">
-                                <input data-toggle="dropdown" type="text" class="form-control form-control-lg input-placeholder border" placeholder="Start typing">
+                                <input data-toggle="dropdown" type="text" class="form-control input-placeholder border" placeholder="Start typing">
                                 <div class="dropdown-menu shadow w-100" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">
-                                        <span class="col">Local move</span>
+                                        <span>Local move</span>
                                     </a>
                                     <a class="dropdown-item" href="#">
-                                        <span class="col">International move</span>
+                                        <span>International move</span>
                                     </a>
                                     <a class="dropdown-item" href="#">
-                                        <span class="col">Car insurance</span>
+                                        <span>Car insurance</span>
                                     </a>
+                                </div>
+                            </div> -->
+                            <div class="input-group d-flex">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-light dropdown-toggle px-4 border" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="mr-2">Dubai</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Abu Dhabi</a>
+                                        <a class="dropdown-item" href="#">Sharjah</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown flex-fill">
+                                    <input data-toggle="dropdown" type="text" class="form-control clear-focus input-placeholder rounded-0" placeholder="Start typing brother">
+                                    <div class="dropdown-menu shadow w-100" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">
+                                            <span>Local move</span>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <span>International move</span>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <span>Car insurance</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-white border-left-0">
+                                        <i class="fa fa-search"></i>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -223,13 +262,13 @@
         <section class="py-5 bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">MOVING & STORAGE</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Moving & Storage</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -270,13 +309,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">CLEANING SERVICES</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Cleaning Services</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -317,13 +356,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">PAINTING & HANDYMAN</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Painting & Handyman</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -364,13 +403,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">GARDEN & PEST CONTROL</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Garden & Pest Control</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -411,13 +450,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">HOME & CAR INSURANCE</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Home & Car Insurance</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -458,13 +497,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">MAIDS, NANNIES & NURSES</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Maids, Nannies & Nurses</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -505,13 +544,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3 class="font-weight-bold has-line-after">EVENTS AND CATERING</h3>
+                    <div class="col px-5 px-md-3">
+                        <h3 class="font-weight-bold has-line-after">Events & Catering</h3>
                         <p>From managing your move to straightening your closet, get anything sorted with ServiceMarket</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col gallery">
+                    <div class="col px-0 px-md-3 gallery">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="placeholder rect-sm border bg-light rounded mb-3" style="background: url('images/rec-1.png') center/cover no-repeat;"></div>
@@ -561,33 +600,33 @@
         <section class="bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <h3 class="font-weight-bold has-line-after">Why ServiceMarket?</h3>
                         <p>We are the largest Home Services marketplace in the Middle East. Thousands of people trust us with
                             their cleaning needs every month.</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <div class="card-group">
                             <div class="card">
                                 <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
                                     <img src="images/why-1.png" height="48" class="mb-3">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="h4 font-weight-bold card-title">Card title</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additio.</p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
                                     <img src="images/why-2.png" height="48" class="mb-3">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="h4 font-weight-bold card-title">Card title</h5>
                                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
                                     <img src="images/why-3.png" height="48" class="mb-3">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="h4 font-weight-bold card-title">Card title</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additio.</p>
                                 </div>
                             </div>
@@ -595,13 +634,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <h3 class="font-weight-bold has-line-after">Verified customer reviews</h3>
                         <p>Read from over 3000 verified reviews</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col reviews">
+                    <div class="col px-0 px-md-3 reviews">
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="card bg-light">
@@ -715,7 +754,7 @@
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <div class="card">
                             <div class="card-body py-0">
                                 <div class="row">
@@ -727,8 +766,8 @@
                                     <div class="col-12 d-flex align-items-center col-md py-3">
                                         <div class="row flex-fill align-items-center justify-content-between text-center text-md-left">
                                             <div class="col-12 col-md-auto">
-                                                <h3 class="font-weight-bold">What do customers say about ServiceMarket?</h3>
-                                                <p class="mb-md-0">ServiceMarket has been rated 4.1 out of 5 based on 305 reviews as of May
+                                                <h3 class="h4 font-weight-bold">What do customers say about ServiceMarket?</h3>
+                                                <p class="h5 mb-md-0">ServiceMarket has been rated 4.1 out of 5 based on 305 reviews as of May
                                                     2018
                                                 </p>
                                             </div>
@@ -745,18 +784,18 @@
                     </div>
                 </div>
                 <div class="row mb-4">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <h3 class="font-weight-bold has-line-after">How it works</h3>
                         <p>We have partnered with Dubai's best cleaning companies to get you the service you deserve</p>
                     </div>
                 </div>
                 <div class="row mb-4">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <div class="card-deck">
                             <div class="card border-0">
                                 <img class="mw-100 mx-auto" src="images/how-1.png" width="260" alt="Card image cap">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title font-weight-bold text-primary">Card title</h5>
+                                    <h5 class="h4 font-weight-bold card-title">Card title</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
                                         This content is a little bit longer.</p>
                                 </div>
@@ -764,14 +803,14 @@
                             <div class="card border-0">
                                 <img class="mw-100 mx-auto" src="images/how-2.png" width="260" alt="Card image cap">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title font-weight-bold text-primary">Card title</h5>
+                                    <h5 class="h4 font-weight-bold card-title">Card title</h5>
                                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                             </div>
                             <div class="card border-0">
                                 <img class="mw-100 mx-auto" src="images/how-3.png" width="260" alt="Card image cap">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title font-weight-bold text-primary">Card title</h5>
+                                    <h5 class="h4 font-weight-bold card-title">Card title</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
                                         This card has even longer content than the first to show that equal height action.</p>
                                 </div>
@@ -827,7 +866,7 @@
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col mt-md-5">
+                    <div class="col px-5 px-md-3 mt-md-5">
                         <div class="card bg-light">
                             <div class="card-body pb-0">
                                 <div class="row">
@@ -856,13 +895,13 @@
                     </div>
                 </div>
                 <div class="row mb-4">
-                    <div class="col">
+                    <div class="col px-5 px-md-3">
                         <h3 class="font-weight-bold has-line-after">ServiceMarket locations</h3>
                         <p>We are currently serving in</p>
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col col-md-9">
+                <div class="row pb-5">
+                    <div class="col px-5 px-md-3 col-md-9">
                         <div class="row">
                             <div class="col">
                                 <ul class="list-unstyled">
@@ -918,7 +957,7 @@
     <footer>
         <div class="footer-top d-none d-md-block">
             <div class="container">
-                <div class="row py-5">
+                <div class="row pt-5">
                     <div class="col">
                         <h5 class="h3 mb-4 text-white font-weight-bold">Moving & Storage</h5>
                         <ul class="list-unstyled">
@@ -1027,8 +1066,8 @@
                         </ul>
                     </div>
                 </div>
-                <hr>
-                <div class="row py-5">
+                <hr class="mb-5">
+                <div class="row pb-5">
                     <div class="col">
                         <h5 class="h3 mb-4 text-white font-weight-bold">Maids, Nannies & Nurses</h5>
                         <ul class="list-unstyled">
@@ -1187,8 +1226,6 @@
     <script src="//cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="//use.fontawesome.com/09675851a6.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
 
     <script type="text/template" id="template-country-item">
         <div class="btn btn-light d-flex align-items-center rounded-0 pointer" data-value="{{dial_code}}" onclick="phoneControl(this);">
@@ -1247,8 +1284,16 @@
                     offset_top: 75
                 });
             }
-            $('.drawer').drawer();
+            drawer();
         });
+
+        function drawer() {
+            $(document).click(function (event) {
+                if (!$(event.target).closest('#drawer').length) {
+                    $('#drawer').collapse('hide');
+                }
+            });
+        }
 
         // Radio button selection scroll to next section
         if (isMobile) {
@@ -1370,20 +1415,25 @@
             loop: false,
             margin: 30,
             dots: false,
+            nav: false,
             center: false,
+            autoWidth: false,
             responsive: {
                 0: {
+                    stagePadding: 43,
+                    margin: 15,
                     items: 1,
-                    stagePadding: 55
                 },
                 600: {
                     items: 2,
                     stagePadding: 35
                 },
                 1000: {
-                    items: 3,
+                    items: 3
+                },
+                1100: {
                     nav: true,
-                    navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+                    navText: ['<img src="images/arrow-left.png"/>', '<img src="images/arrow-right.png"/>'],
                 }
             }
         });
@@ -1392,11 +1442,13 @@
             loop: false,
             margin: 30,
             dots: false,
+            nav: false,
             center: false,
             responsive: {
                 0: {
+                    stagePadding: 43,
+                    margin: 15,
                     items: 1,
-                    stagePadding: 55
                 },
                 600: {
                     items: 2,
@@ -1410,6 +1462,7 @@
 
         $('.payment .owl-carousel').owlCarousel({
             loop: false,
+            center: false,
             margin: 10,
             nav: false,
             dots: false,
@@ -1426,6 +1479,7 @@
 
         $('.blog .owl-carousel').owlCarousel({
             loop: false,
+            center: false,
             margin: 10,
             nav: false,
             dots: false,
