@@ -542,7 +542,7 @@ input[type="text"]:valid~.input-valid {
     left: 50%;
     transform-origin: left center;
     transform: translate(-50%, -50%) scale(0);
-    color: #777;
+    color: var(--secondary);
     transition: transform 0.1s;
 }
 
@@ -563,7 +563,7 @@ input[type="text"]:valid~.input-valid {
 .gallery .owl-prev,
 .gallery .owl-next {
     position: absolute;
-    top: 30%;
+    top: 27%;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
@@ -666,22 +666,83 @@ input[type="text"]:valid~.input-valid {
 }
 
 .drawer {
-    max-width: 320px;
-    overflow-x: hidden;
-    overflow-y: auto;
     box-shadow: 7px 0 21px rgba(0,0,0,0.4);
     display: block !important;
-    transition: opacity 0.2s, left 0.1s;
 }
-
 .drawer.collapse {
-    left: -320px;
     opacity: 0;
 }
-
 .drawer.collapse.show {
-    left: 0;
     opacity: 1;
+}
+
+@media(max-width: 767px) {
+    .drawer {
+        height: 100%;
+        max-width: 320px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: opacity 0.2s, left 0.1s;
+    }
+    .drawer.collapse {
+        left: -320px;
+    }
+
+    .drawer.collapse.show {
+        left: 0;
+    }
+
+}
+
+@media(min-width: 768px) {
+    .drawer {
+        left: 25px;
+        width: calc(100vw - 50px);
+        height: auto !important;
+        max-height: calc(100vh - 200px);
+        position: absolute !important;
+        transition: opacity 0.4s, top 0.1s;
+    }
+    .drawer.collapse {
+        top: -100%;
+    }
+    .drawer.collapse.show {
+        top: 65px;
+    }
+    .drawer .accordion,
+    .drawer .accordion .card .collapse {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .drawer .accordion {
+        width: 75%;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    .drawer [data-toggle="collapse"] {
+        pointer-events: none;
+        color: #333 !important;
+        font-weight: bold;
+    }
+    .drawer [data-toggle="collapse"]::after {
+        display: none !important;
+    }
+    .drawer .accordion .card:not(:last-child) {
+        flex-shrink: 0;
+        flex-basis: 25%;
+    }
+    .drawer .accordion .card:last-child {
+        margin: 0 auto;
+        display: none;
+    }
+    .drawer .accordion .card,
+    .drawer .accordion .list-group-item {
+        border: 0 !important;
+    }
+    .drawer .accordion .list-group-item {
+        font-size: 0.85rem;
+        padding: 0.3125rem 1.625rem !important;
+    }
 }
 
 /* Select Dropdown */
@@ -695,3 +756,26 @@ select.form-control {
     -moz-appearance: none;
     appearance: none;
 }
+
+.owl-carousel,
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: auto !important;
+        touch-action: auto !important;
+}
+
+.item {
+    position: relative;
+}
+
+/* 
+.item p,
+.item h6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+
+.item p { transform: translate(-50%, -30%); }
+.item h6 { transform: translate(-50%, 30%); } */
