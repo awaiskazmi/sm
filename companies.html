@@ -192,107 +192,15 @@
         </nav>
     </header>
     <main class="">
-        <nav class="steps bg-white pb-4 pt-3 border-bottom sticky hide-on-focus">
-            <div class="container">
-                <!-- Stepper -->
-                <ul class="steps px-2 list-unstyled m-0 d-flex align-items-center justify-content-between">
-                    <li class="step col-auto text-center complete">
-                        <a href="moving-1.html">
-                            <span class="step-icon"></span>
-                            <p class="step-label h6 m-0 text-nowrap">Move details</p>
-                        </a>
-                    </li>
-                    <li class="step-lines col"></li>
-                    <li class="step col-auto text-center active">
-                        <a>
-                            <span class="step-icon"></span>
-                            <p class="step-label h6 m-0 text-nowrap">Select companies</p>
-                        </a>
-                    </li>
-                    <li class="step-lines col"></li>
-                    <li class="step col-auto text-center">
-                        <a>
-                            <span class="step-icon"></span>
-                            <p class="step-label h6 m-0 text-nowrap">Contact details</p>
-                        </a>
-                    </li>
-                    <li class="step-lines col"></li>
-                    <li class="step col-auto text-center">
-                        <a>
-                            <span class="step-icon"></span>
-                            <p class="step-label h6 m-0 text-nowrap">Payment</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container pt-5">
+        <div class="container pt-3">
             <div class="row">
                 <!-- main -->
-                <div class="col-12 col-lg-8">
-                    <section class="card mb-5 d-none">
-                        <div class="row">
-                            <div class="col col-md-auto">
-                                <div class="bg-light text-black py-2 px-3">
-                                    <p class="h2">Local move request for quotes</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row align-items-end">
-                            <div class="col-7">
-                                <div class="p-3">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="font-weight-bold m-0">Moving from</p>
-                                                </div>
-                                                <div class="col">
-                                                    <p class="m-0">Dubai</p>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="font-weight-bold m-0">Moving to</p>
-                                                </div>
-                                                <div class="col">
-                                                    <p class="m-0">Sharjah</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="font-weight-bold m-0">Moving date</p>
-                                                </div>
-                                                <div class="col">
-                                                    <p class="m-0">5/6/2018</p>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="font-weight-bold m-0">Moving type</p>
-                                                </div>
-                                                <div class="col">
-                                                    <p class="m-0">Full</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-5 text-center">
-                                <div class="p-3">
-                                    <p class="mb-1">5 companies selected</p>
-                                    <a href="#" class="btn btn-block btn-lg btn-warning">Get Quotes</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                <div class="col-12 col-lg-8 mx-auto">
                     <section>
-                        <div class="row">
-                            <div class="col">
-                                <p class="h3 text-center text-md-left mb-4">Select companies you want a quote from (showing 354 companies)</p>
+                        <div class="row my-5">
+                            <div class="col text-center">
+                                <p class="h3">ServiceMarket's rapidly growing network of home service companies</p>
+                                <p class="m-0">We have more than X partners providing more than Y services across Z cities!</p>
                             </div>
                         </div>
                         <div class="row d-none d-md-flex">
@@ -385,11 +293,56 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-2 col-md-1 bg-light d-flex align-items-center justify-content-center">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <input id="check" class="big-check" type="checkbox" class="m-0 pointer" checked>
-                                        <label for="check" class="big-check-label"></label>
-                                        <small class="mt-1">Selected</small>
+                            </div>
+                        </div>
+                        <div class="card container-fluid mb-3 shadow-sm">
+                            <div class="row">
+                                <div class="col-2 col-md-1 pr-0">
+                                    <div class="py-3">
+                                        <div class="border rounded placeholder square pointer" data-toggle="modal" data-target="#companyDetailModal"></div>
+                                    </div>
+                                </div>
+                                <div class="col py-3 d-flex flex-column justify-content-between">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span data-toggle="modal" data-target="#companyDetailModal" class="h3 pointer m-0">Pool Cleaners inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 col-lg-6 pb-1 pb-md-0">
+                                            <div class="d-flex flex-sm-column">
+                                                <p class="m-0 mr-2">
+                                                    <i class="fa fa-star text-warning"></i>
+                                                    <i class="fa fa-star text-warning"></i>
+                                                    <i class="fa fa-star text-warning"></i>
+                                                    <i class="fa fa-star text-black"></i>
+                                                    <i class="fa fa-star text-black"></i>
+                                                </p>
+                                                <a href="#" class="m-0 order-sm-1" data-toggle="modal" data-target="#companyDetailModal">
+                                                    <u>454 ratings</u>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto col-md order-3 col-md">
+                                            <div class="">
+                                                <small class="d-none d-md-block">
+                                                    <b>Promotions</b>
+                                                </small>
+                                                <span class="text-secondary d-block">
+                                                    <small>10 % OFF</small>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto col-md order-2 col-md">
+                                            <div class="">
+                                                <small class="d-none d-md-block">
+                                                    <b>Location</b>
+                                                </small>
+                                                <span class="d-block text-secondary">
+                                                    <small>Dubai - Bhera</small>
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -444,13 +397,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-2 col-md-1 bg-light d-flex align-items-center justify-content-center">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <input id="checkTwo" class="big-check" type="checkbox" class="m-0 pointer">
-                                        <label for="checkTwo" class="big-check-label"></label>
-                                        <small class="mt-1">Select</small>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="card container-fluid mb-3 shadow-sm">
@@ -503,13 +449,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-2 col-md-1 bg-light d-flex align-items-center justify-content-center">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <input id="checkThree" class="big-check" type="checkbox" class="m-0 pointer">
-                                        <label for="checkThree" class="big-check-label"></label>
-                                        <small class="mt-1">Select</small>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="card container-fluid mb-3 shadow-sm">
@@ -560,276 +499,11 @@
                                                 </span>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 col-md-1 bg-light d-flex align-items-center justify-content-center">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <input id="checkFour" class="big-check" type="checkbox" class="m-0 pointer">
-                                        <label for="checkFour" class="big-check-label"></label>
-                                        <small class="mt-1">Select</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card container-fluid mb-3 shadow-sm">
-                            <div class="row">
-                                <div class="col-2 col-md-1 pr-0">
-                                    <div class="py-3">
-                                        <div class="border rounded placeholder square pointer" data-toggle="modal" data-target="#companyDetailModal"></div>
-                                    </div>
-                                </div>
-                                <div class="col py-3 d-flex flex-column justify-content-between">
-                                    <div class="row">
-                                        <div class="col">
-                                            <span data-toggle="modal" data-target="#companyDetailModal" class="h3 pointer m-0">Pool Cleaners inc</span>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12 col-md-4 col-lg-6 pb-1 pb-md-0">
-                                            <div class="d-flex flex-sm-column">
-                                                <p class="m-0 mr-2">
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    <i class="fa fa-star text-black"></i>
-                                                    <i class="fa fa-star text-black"></i>
-                                                </p>
-                                                <a href="#" class="m-0 order-sm-1" data-toggle="modal" data-target="#companyDetailModal">
-                                                    <u>454 ratings</u>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto col-md order-3 col-md">
-                                            <div class="">
-                                                <small class="d-none d-md-block">
-                                                    <b>Promotions</b>
-                                                </small>
-                                                <span class="text-secondary d-block">
-                                                    <small>10 % OFF</small>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto col-md order-2 col-md">
-                                            <div class="">
-                                                <small class="d-none d-md-block">
-                                                    <b>Location</b>
-                                                </small>
-                                                <span class="d-block text-secondary">
-                                                    <small>Dubai - Bhera</small>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 col-md-1 bg-light d-flex align-items-center justify-content-center">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <input id="checkFive" class="big-check" type="checkbox" class="m-0 pointer">
-                                        <label for="checkFive" class="big-check-label"></label>
-                                        <small class="mt-1">Select</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card container-fluid mb-3 shadow-sm">
-                            <div class="row">
-                                <div class="col-2 col-md-1 pr-0">
-                                    <div class="py-3">
-                                        <div class="border rounded placeholder square pointer" data-toggle="modal" data-target="#companyDetailModal"></div>
-                                    </div>
-                                </div>
-                                <div class="col py-3 d-flex flex-column justify-content-between">
-                                    <div class="row">
-                                        <div class="col">
-                                            <span data-toggle="modal" data-target="#companyDetailModal" class="h3 pointer">Pest Control Special Offer - 10 % Off</span>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="row align-items-end">
-                                                <div class="col-auto">
-                                                    <p class="m-0 mb-md-3 d-flex align-items-center">
-                                                        <span>
-                                                            <del>AED 500</del>
-                                                        </span>
-                                                        <span class="ml-2 d-inline-block p-1 bg-primary text-white">AED 450</span>
-                                                    </p>
-                                                </div>
-                                                <div class="d-md-none col-auto ml-auto">
-                                                    <span class="d-block text-primary pointer" data-toggle="modal" data-target="#companyDetailModal">
-                                                        <small>
-                                                            <u>More Info</u>
-                                                        </small>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="d-none d-md-block col-12 col-md col-md">
-                                            <div class="">
-                                                <small class="d-none d-md-block">
-                                                    <b>Company</b>
-                                                </small>
-                                                <span class="text-secondary d-block">
-                                                    <small>ServiceMarket</small>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="d-none d-md-block col-auto col-md-4 col-lg-6 pb-1 pb-md-0">
-                                            <div class="d-flex flex-sm-column">
-                                                <p class="m-0 mr-2">
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    <i class="fa fa-star text-black"></i>
-                                                    <i class="fa fa-star text-black"></i>
-                                                </p>
-                                                <a href="#" class="m-0" data-toggle="modal" data-target="#companyDetailModal">
-                                                    <u>454 ratings</u>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="d-none d-md-block col col-md text-right text-md-left">
-                                            <div class="">
-                                                <small class="d-none d-md-block">
-                                                    <b>Offer Detail</b>
-                                                </small>
-                                                <span class="d-block text-primary pointer" data-toggle="modal" data-target="#companyDetailModal">
-                                                    <small>
-                                                        <u>More Info</u>
-                                                    </small>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 col-md-1 bg-light d-flex align-items-center justify-content-center">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <input id="checkSix" class="big-check" type="checkbox" class="m-0 pointer" checked>
-                                        <label for="checkSix" class="big-check-label"></label>
-                                        <small class="mt-1">Selected</small>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                </div>
-                <!-- sidebar -->
-                <div class="col-md-3 ml-auto d-lg-block d-none">
-                    <div class="row sticky-sidebar">
-                        <div class="col-12">
-                            <div class="card mb-3">
-                                <h5 class="h3 card-header text-primary bg-white p-3">Request Summary</h5>
-                                <div class="card-body p-0">
-                                    <div class="px-3">
-                                        <div class="row my-3">
-                                            <div class="col-6">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <small>
-                                                            <b>Moving from:</b>
-                                                        </small>
-                                                    </div>
-                                                    <div class="col-12 ml-auto">
-                                                        <span class="text-secondary">
-                                                            <small>Dubai</small>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <small>
-                                                            <b>Moving to:</b>
-                                                        </small>
-                                                    </div>
-                                                    <div class="col-12 ml-auto">
-                                                        <span class="text-secondary">
-                                                            <small>Sharjah</small>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row my-3">
-                                            <div class="col-6">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <small>
-                                                            <b>Moving date:</b>
-                                                        </small>
-                                                    </div>
-                                                    <div class="col-12 ml-auto">
-                                                        <span class="text-secondary">
-                                                            <small>5/6/2018</small>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <small>
-                                                            <b>Moving type:</b>
-                                                        </small>
-                                                    </div>
-                                                    <div class="col-12 ml-auto">
-                                                        <span class="text-secondary">
-                                                            <small>Full</small>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">
-                                            <div class="row align-items-center">
-                                                <div class="col-auto text-center">
-                                                    <p class="h5 m-0 font-weight-bold">Selected companies</p>
-                                                </div>
-                                                <div class="col-auto ml-auto text-center text-warning">
-                                                    <span class="h2 font-weight-bold m-0">13</span>
-                                                    <span class="h3 m-0 d-none">Companies</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <button class="btn btn-block btn-warning text-uppercase">Request Free Quotes</button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="py-5"></div>
-        <div class="fixed-bottom bg-white shadow-lg border-top d-none">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8 mr-auto text-center py-3">
-                        <button class="btn btn-warning text-uppercase">Request Free Quotes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid fixed-bottom bg-white border-top d-lg-none hide-on-focus">
-            <div class="row">
-                <div class="col-6 px-0 d-flex">
-                    <button data-toggle="modal" data-target="#detailsModal" class="clear-focus btn btn-block rounded-0 btn-dark py-3 font-weight-bold">
-                        <span class="text-uppercase">Request Summary</span>
-                        <span class="d-block">
-                            <small>5 Companies Selected</small>
-                        </span>
-                    </button>
-                </div>
-                <div class="col-6 px-0 d-flex">
-                    <a href="#" class="clear-focus btn btn-block d-flex align-items-center justify-content-center rounded-0 btn-warning text-white py-3 font-weight-bold">
-                        <span class="text-uppercase">Request Free Quotes</span>
-                    </a>
                 </div>
             </div>
         </div>
@@ -853,9 +527,6 @@
                                     <div class="col">
                                         <p class="h2">Jon Movers Incorporates</p>
                                     </div>
-                                    <div class="col-auto mb-2 d-none d-md-block">
-                                        <button class="btn btn-primary" data-dismiss="modal">Select Company</button>
-                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-auto text-left">
@@ -870,9 +541,6 @@
                                         <p class="m-0">
                                             <small>454 Reviews</small>
                                         </p>
-                                    </div>
-                                    <div class="col col-md-auto mt-2 d-md-none">
-                                        <button class="btn btn-primary" data-dismiss="modal">Select Company</button>
                                     </div>
                                 </div>
                             </div>
@@ -1006,158 +674,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Booking Information Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header d-flex align-items-center">
-                        <h5 class="modal-title" id="exampleModalLabel">Filters</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col">
-                                <div class="">
-                                    <div class="row">
-                                        <div class="col-6 col-md pr-2">
-                                            <select name="" id="" class="form-control mb-3">
-                                                <option value="">Sort by rating</option>
-                                                <option value="">Two</option>
-                                                <option value="">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-6 col-md pl-2">
-                                            <select name="" id="" class="form-control mb-3">
-                                                <option value="">Filter by stars</option>
-                                                <option value="">Two</option>
-                                                <option value="">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-6 col-md pr-2">
-                                            <select name="" id="" class="form-control mb-3">
-                                                <option value="">Filter by promo</option>
-                                                <option value="">Two</option>
-                                                <option value="">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-6 col-md pl-2">
-                                            <select name="" id="" class="form-control mb-3">
-                                                <option value="">Filter by location</option>
-                                                <option value="">Two</option>
-                                                <option value="">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-12 mx-auto col-md">
-                                            <select name="" id="" class="form-control">
-                                                <option value="">Filter by services</option>
-                                                <option value="">Two</option>
-                                                <option value="">Three</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-lg btn-block btn-primary" data-dismiss="modal">Apply Filters</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Job Details -->
-        <div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header d-flex align-items-center">
-                        <h5 class="modal-title" id="exampleModalLabel">Request Summary</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body pb-0">
-                        <div class="row mb-3">
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <small>
-                                            <b>Moving from:</b>
-                                        </small>
-                                    </div>
-                                    <div class="col-12 ml-auto">
-                                        <span class="text-secondary">
-                                            <small>Dubai</small>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <small>
-                                            <b>Moving to:</b>
-                                        </small>
-                                    </div>
-                                    <div class="col-12 ml-auto">
-                                        <span class="text-secondary">
-                                            <small>Sharjah</small>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <small>
-                                            <b>Moving date:</b>
-                                        </small>
-                                    </div>
-                                    <div class="col-12 ml-auto">
-                                        <span class="text-secondary">
-                                            <small>5/6/2018</small>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <small>
-                                            <b>Moving type:</b>
-                                        </small>
-                                    </div>
-                                    <div class="col-12 ml-auto">
-                                        <span class="text-secondary">
-                                            <small>Full</small>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item px-0">
-                                <div class="row align-items-center">
-                                    <div class="col">
-                                        <p class="h5 m-0 font-weight-bold">Selected companies</p>
-                                    </div>
-                                    <div class="col text-warning">
-                                        <span class="h2 font-weight-bold m-0">13</span>
-                                        <span class="h3 m-0 d-none">Companies</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-lg btn-block btn-primary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>

@@ -700,6 +700,7 @@ input[type="text"]:valid~.input-valid {
         width: calc(100vw - 50px);
         height: auto !important;
         max-height: calc(100vh - 200px);
+        overflow: auto;
         position: absolute !important;
         transition: opacity 0.4s, top 0.1s;
     }
@@ -779,3 +780,52 @@ select.form-control {
 
 .item p { transform: translate(-50%, -30%); }
 .item h6 { transform: translate(-50%, 30%); } */
+
+/* Star Rating */
+
+.ratable {
+    float: left;
+}
+
+.ratable:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0,0,0,0);
+}
+.ratable input[type=radio] {
+    display: none;
+}
+
+.ratable:not(:checked)>label {
+    float: right;
+    width: 1em;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 125%;
+    line-height: 1.45;
+    color: #333;
+}
+
+.ratable:not(:checked)>label:before {
+    content: '★';
+}
+
+.ratable>input:checked~label {
+    color: var(--secondary);
+}
+
+.ratable:not(:checked)>label:hover,
+.ratable:not(:checked)>label:hover~label {
+    color: var(--secondary);
+}
+
+.ratable>input:checked+label:hover,
+.ratable>input:checked+label:hover~label,
+.ratable>input:checked~label:hover,
+.ratable>input:checked~label:hover~label,
+.ratable>label:hover~input:checked~label {
+    color: var(--secondary);
+}
