@@ -106,12 +106,14 @@ body {
     transition: all 0.1s ease;
 }
 
-input[type="radio"]:checked~.btn-radio {
+input[type="radio"]:checked~.btn-radio,
+input[type="checkbox"]:checked~.btn-radio {
     background-color: var(--primary);
     color: #fff;
 }
 
-input[type="radio"]:checked~.btn-radio * {
+input[type="radio"]:checked~.btn-radio *,
+input[type="checkbox"]:checked~.btn-radio * {
     color: #fff;
 }
 
@@ -801,10 +803,11 @@ select.form-control {
     width: 1em;
     padding: 0;
     margin: 0;
+    margin-right: 0.3125rem;
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
-    font-size: 125%;
+    font-size: 145%;
     line-height: 1.45;
     color: #333;
 }
